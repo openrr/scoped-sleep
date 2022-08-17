@@ -11,7 +11,7 @@ impl ScopedSleep {
     /// let now = std::time::Instant::now();
     /// {
     ///     // Do not use `let _ = ..` here because it immediately drops ScopedSleep.
-    ///     let _guard = openrr_sleep::ScopedSleep::new(std::time::Duration::from_millis(100));
+    ///     let _guard = scoped_sleep::ScopedSleep::new(std::time::Duration::from_millis(100));
     ///     // not sleep yet
     ///     assert!(now.elapsed() < std::time::Duration::from_millis(20));
     /// }
@@ -31,7 +31,7 @@ impl ScopedSleep {
     /// let now = std::time::Instant::now();
     /// {
     ///     // Do not use `let _ = ..` here because it immediately drops ScopedSleep.
-    ///     let _guard = openrr_sleep::ScopedSleep::from_secs(0.1);
+    ///     let _guard = scoped_sleep::ScopedSleep::from_secs(0.1);
     ///     // not sleep yet
     ///     assert!(now.elapsed() < std::time::Duration::from_millis(10));
     /// }
