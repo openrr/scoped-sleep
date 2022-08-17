@@ -1,6 +1,8 @@
-# openrr-sleep
+# scoped-sleep
 
-[![crates.io](https://img.shields.io/crates/v/openrr-sleep.svg)](https://crates.io/crates/openrr-sleep) [![docs](https://docs.rs/openrr-sleep/badge.svg)](https://docs.rs/openrr-sleep) [![docs](https://img.shields.io/badge/docs-main-blue)](https://openrr.github.io/openrr/openrr_sleep)
+[![crates.io](https://img.shields.io/crates/v/scoped-sleep.svg)](https://crates.io/crates/scoped-sleep) [![docs](https://docs.rs/scoped-sleep/badge.svg)](https://docs.rs/scoped-sleep)
+
+RAII sleep
 
 ## License
 
