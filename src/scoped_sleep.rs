@@ -1,4 +1,5 @@
 /// RAII sleep
+#[derive(Debug)]
 pub struct ScopedSleep {
     target_time: std::time::Instant,
 }
