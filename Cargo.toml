@@ -9,3 +9,12 @@ categories = ["rust-patterns"]
 repository = "https://github.com/openrr/scoped-sleep"
 
 [dependencies]
+
+[lints]
+workspace = true
+
+[workspace.lints.rust]
+# missing_docs = "warn" # TODO: This somehow warns examples.
+rust_2018_idioms = "warn"
+single_use_lifetimes = "warn"
+unreachable_pub = "warn"
