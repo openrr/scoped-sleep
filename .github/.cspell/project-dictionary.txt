@@ -1,4 +1,3 @@
 RAII
 rustdocflags
 rustflags
-rustup
